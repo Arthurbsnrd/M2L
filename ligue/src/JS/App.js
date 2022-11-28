@@ -6,6 +6,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -14,15 +15,15 @@ function App() {
   return (
     <div>
       <Banner />
+    <Routes>
+      <Route path='/Contact' element={<Contact/>}>
+      </Route>
+
+
+    </Routes>
       <Footer />
-      <Contact />
-    </div>
-  );
-  return (
-    <Route path='Contact' element={<Contact/>}>
-        </Route>
-  )
-}
 
-
+  </div>
+);
+  }
 export default App;
