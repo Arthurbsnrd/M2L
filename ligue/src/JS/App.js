@@ -5,6 +5,8 @@ import Banner from './Banner';
 import Contact from './Contact';
 import Footer from './Footer';
 import Produit from './Produit';
+import Presentation from './Presentation'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Banner />
       <Routes>
         {/* <Route path="/" element={<Accueil />}></Route> */}
+        <Route path='/Presentation' element={<Presentation/>}></Route>
         <Route path="/produit" element={<Produit/>} ></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
       </Routes>
