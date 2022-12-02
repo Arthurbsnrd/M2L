@@ -16,6 +16,10 @@ function Banner() {
             <li>Produit</li>
           </Link>
 
+          <Link to="/Contact">
+            <li>Contact</li>
+          </Link>
+
               {/* <li><a class='dropdown-arrow' href=''>Projets</a>
               <ul class='sub-menus'>
                   <li><a href=''></a></li>
