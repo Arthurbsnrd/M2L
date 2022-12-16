@@ -38,6 +38,9 @@ function Banner() {
           <Link to="/Contact">
             <li>Contact</li>
           </Link>
+          <Link to="/Inscription">
+            <li>Inscription</li>
+          </Link>
         </ul>
 
       </nav>

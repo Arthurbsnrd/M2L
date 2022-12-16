@@ -1,0 +1,19 @@
+.margintop{
+    margin: 30px;
+    margin-top: 5%;
+}
+.info{
+    background-color:rgb(37, 184, 37);
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    margin-top: 10px;
+    width: 400px;
+}
+form{
+    text-align: center;
+}
+.mb-3{
+    text-align: center;
+}
