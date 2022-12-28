@@ -8,6 +8,7 @@ import Presentation from './Presentation';
 import Contact from './Contact';
 import Panier from './Panier';
 import Inscription from './Inscription';
+import MentionLegal from './MentionLegal';
 import AdminUser from './AdminUser';
 
 
@@ -22,7 +23,8 @@ function App() {
         <Route path='/Presentation' element={<Presentation/>}></Route>
         <Route path="/produit" element={<Produit/>} ></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
-        <Route path='/Admin/users' element={<AdminUser/>}></Route> 
+        <Route path='/Admin/users' element={<AdminUser/>}></Route>
+        <Route path='/MentionLegal' element={<MentionLegal/>}></Route> 
       </Routes>
       <Footer />
 

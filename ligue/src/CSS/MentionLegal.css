@@ -1,0 +1,11 @@
+.mention {
+    margin: 0 15rem;
+}
+
+.mention p {
+    font-size: 16px;
+}
+
+.mention h1, h2 {
+    color: rgb(162, 77, 77);
+}
