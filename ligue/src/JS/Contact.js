@@ -1,4 +1,5 @@
 import '../CSS/Contact.css';
+import '../CSS/Commun.css';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -20,7 +21,7 @@ const Contact = () => {
     console.log(conFom)
   }
   return (
-    <div className="container mt-5"> <br/>
+    <div className="fontFamily marginBottom container mt-5"> <br/>
       <h2 className="mb-3">Formulaire de Contact</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
