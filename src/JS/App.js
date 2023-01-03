@@ -16,10 +16,9 @@ function App() {
     <div>
       <Banner />
       <Routes>
-        <Route path='/' element={<Inscription/>}></Route>
         <Route path='/Inscription' element={<Inscription/>}></Route>
         <Route path="/Panier" element={<Panier/>}></Route>
-        <Route path='/Presentation' element={<Presentation/>}></Route>
+        <Route path='/' element={<Presentation/>}></Route>
         <Route path="/produit" element={<Produit/>} ></Route>
         <Route path='/Admin/users' element={<AdminUser/>}></Route>
         <Route path='/MentionLegal' element={<MentionLegal/>}></Route> 
