@@ -1,4 +1,5 @@
 import '../CSS/Produits.css';
+import '../CSS/Commun.css';
 import axios from 'axios';
 import { useEffect, useState } from "react";
 import maillot1 from '../IMG/maillot1.jpg';
@@ -26,7 +27,7 @@ function Produit() {
     },[])
   if(!chargement){
     return (
-      <div className='margintop'>
+      <div className='fontFamily marginBottom margintop'>
         {produits.map(produit=>(
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={require("../IMG/" + produit.photo)} />

@@ -1,0 +1,12 @@
+.fontFamily {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.margintop{
+    margin: 30px;
+    margin-top: 5%;
+}
+
+.marginBottom {
+    margin-bottom: 20vh;
+}

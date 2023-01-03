@@ -2,6 +2,7 @@ import Table from 'react-bootstrap/Table';
 import axios from 'axios';
 import { useEffect, useState } from "react";
 import '../CSS/Produits.css';
+import '../CSS/Commun.css';
 
 function AdminUser() {
     const [utilisateurs, setUtilisateurs]=useState()
@@ -19,7 +20,7 @@ function AdminUser() {
 
     if(!chargement){
         return (
-            <Table striped bordered hover size="sm" className='margintop'>
+            <Table striped bordered hover size="sm" className='fontFamily margintop'>
               <thead>
                 <tr>
                   <th>Id</th>
@@ -48,7 +49,7 @@ function AdminUser() {
     }
     else{
         return(
-        <div className='margintop'>
+        <div className='marginBottom margintop'>
             Chargement...
         </div>)
     }

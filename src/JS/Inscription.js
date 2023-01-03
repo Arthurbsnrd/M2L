@@ -1,4 +1,5 @@
 import '../CSS/Inscription.css';
+import '../CSS/Commun.css';
 import { useState } from "react";
 import axios from 'axios';
 
@@ -30,7 +31,7 @@ function Inscription() {
     }
 
     return (
-        <div className="margintop">
+        <div className="fontFamily marginBottom margintop">
         <h2 className="mb-3">Formulaire d'Inscription</h2>
          
         <form onSubmit={ajoutUtilisateur}>
