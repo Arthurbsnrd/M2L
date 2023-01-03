@@ -17,10 +17,14 @@ function Banner() {
             <li>Produit</li>
           </Link>
 
-
-          <Link to="/Inscription">
-            <li>Inscription</li>
-          </Link>
+          <div className='d-flex justify-content-end align-items-center endNav'>
+          <Link to="/Panier">
+              <li>Panier</li>
+            </Link>
+            <Link to="/Inscription">
+              <li>Inscription</li>
+            </Link>
+          </div>
         </ul>
 
       </nav>
