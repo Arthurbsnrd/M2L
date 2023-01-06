@@ -3,8 +3,8 @@ import '../CSS/Commun.css';
 
 function Presentation() {
     return (
-        <>
-        </>
+        <div className='margintop marginBottom'>
+        </div>
     );
     }
 

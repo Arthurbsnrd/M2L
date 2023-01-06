@@ -50,6 +50,9 @@ link {
 .mobileDisplay {
 	display: none;
 }
+.endNav {
+	height: 100%;
+}
 
 
 @media only screen and (max-width: 576px) {

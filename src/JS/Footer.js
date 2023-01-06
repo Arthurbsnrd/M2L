@@ -10,9 +10,6 @@ function Footer() {
           <Link to="/MentionLegal">
             <li>Mention Légales</li>
           </Link>
-          <Link to="/Contact">
-            <li>Contact</li>
-          </Link>
         </div>
       </div>
     );
