@@ -27,7 +27,7 @@ function Produit() {
     },[])
   if(!chargement){
     return (
-      <div className='fontFamily marginBottom margintop'>
+      <div className='d-flex flex-row fontFamily marginBottom margintop'>
         {produits.map(produit=>(
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={require("../IMG/" + produit.photo)} />

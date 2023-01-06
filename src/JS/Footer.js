@@ -8,7 +8,7 @@ function Footer() {
       <div>
         <div className='footer fontFamily'>
           <Link to="/MentionLegal">
-            <li>Mention Légal</li>
+            <li>Mention Légales</li>
           </Link>
           <Link to="/Contact">
             <li>Contact</li>

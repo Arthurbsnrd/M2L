@@ -10,6 +10,7 @@ import Panier from './Panier';
 import Inscription from './Inscription';
 import MentionLegal from './MentionLegal';
 import AdminUser from './AdminUser';
+import Accueil from './Accueil';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div>
       <Banner />
       <Routes>
-        <Route path='/' element={<Inscription/>}></Route>
+        <Route path='/Accueil' element={<Accueil/>}></Route>
         <Route path='/Inscription' element={<Inscription/>}></Route>
         <Route path="/Panier" element={<Panier/>}></Route>
         <Route path='/Presentation' element={<Presentation/>}></Route>

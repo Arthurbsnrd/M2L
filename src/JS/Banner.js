@@ -9,7 +9,7 @@ function Banner() {
     <div>
       <nav className="computerDisplay menu">
         <ul>
-          <Link to="/">
+          <Link to="/Accueil">
             <li className='creativeName'> M2L</li>
           </Link>
 
