@@ -24,6 +24,9 @@ function Banner() {
             <Link to="/Inscription">
               <li>Inscription</li>
             </Link>
+            <Link to="/Connexion">
+              <li>Connexion</li>
+            </Link>
           </div>
         </ul>
 
